@@ -9,7 +9,7 @@ import random
 scale = 50
 octaves = 2
 speed = .001
-colors = [0, 124, 125, 126, 127, 128, 129]
+colors = [16, 124, 125, 126, 127, 128, 129]
 
 #argument parser
 parser = argparse.ArgumentParser(description="Stay groovy with a virtual lava lamp")
