@@ -16,7 +16,7 @@ optional arguments:
                         Set level of detail for islands. Defaults to 6
   --hspeed HSPEED       Set x component of flyover speed. Defaults to .1
   --vspeed VSPEED       Set y component of flyover speed. Defaults to .1
-  -S SIZE, --size SIZE  Set the size of landmasses. Defaults to .1. Values higher than .3 are not reccomended.'
+  -S SIZE, --size SIZE  Set the size of landmasses. Defaults to .1. Values higher than .3 are not reccomended.
 ```
 
 ## lavalamp
