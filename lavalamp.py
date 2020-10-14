@@ -12,7 +12,7 @@ speed = .001
 colors = [0, 124, 125, 126, 127, 128, 129]
 
 #argument parser
-parser = argparse.ArgumentParser(description="Stay groovy with a virtual lava lamp1")
+parser = argparse.ArgumentParser(description="Stay groovy with a virtual lava lamp")
 
 parser.add_argument("-s", "--scale", type=float, help="Set size of blobs. Defaults to 50")
 parser.add_argument("-o", "--octaves", type=int, help="Set level of detail when generating blobs. Defaults to 2")
