@@ -3,7 +3,6 @@ import numpy as np
 import random
 import curses
 import math
-import threading
 import argparse
 
 #default args
