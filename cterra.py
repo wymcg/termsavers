@@ -6,11 +6,11 @@ import math
 import argparse
 
 #default args
-scale = 100
+scale = 50
 octaves = 6
 xspeed = 1
 yspeed = .75
-adjust = .1
+adjust = .15
 colors = [17, 18, 19, 20, 21, 228, 41, 40, 34, 28, 22, 245, 244, 243, 242, 241, 240]
 
 #argument parser
@@ -19,8 +19,8 @@ parser = argparse.ArgumentParser(description='Fly over a randomly generated land
 parser.add_argument("-s", "--scale", type=float, help="Set size of islands. Defaults to 50")
 parser.add_argument("-o", "--octaves", type=int, help="Set level of detail for islands. Defaults to 6")
 parser.add_argument("--hspeed", type=float, help="Set x component of flyover speed. Defaults to .1")
-parser.add_argument("--vspeed", type=float, help="Set y component of flyover speed. Defaults to .1")
-parser.add_argument("-S", "--size", type=float, help="Set the size of landmasses. Defaults to .1. Values higher than .3 are not reccomended.")
+parser.add_argument("--vspeed", type=float, help="Set y component of flyover speed. Defaults to .75")
+parser.add_argument("-S", "--size", type=float, help="Set the size of landmasses. Defaults to .15")
 
 args = parser.parse_args()
 
@@ -61,7 +61,7 @@ xoff = random.randint(0, 1000)
 yoff = random.randint(0, 1000)
 
 #other constants
-perlinMax = math.sqrt(3)/4
+perlinMax = 1
 ncolors = len(colors)
 gap = perlinMax / ncolors
 

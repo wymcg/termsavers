@@ -51,7 +51,7 @@ z = 0
 xoff = random.uniform(0, 1000)
 yoff = random.uniform(0, 1000)
 ncolors = len(colors)
-perlinMax = math.sqrt(3)/4
+perlinMax = 1
 gap = perlinMax / ncolors
 
 #main loop
